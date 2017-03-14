@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+body a:hover, body a {
+	text-decoration: none;
+}
+html, body {
+	font-size: 100%;
+	background: #009BB2;
+	font-family: 'Questrial', sans-serif;
+	font: inherit;
+	overflow: hidden;
+}
+body{
+	height: 1000px;
+}
+h1 {
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+	padding: 1em 0 0;
+	text-shadow: #DDDDDD 0 0 5px;
+	margin-bottom: 30PX;
+}
+.main {
+	width: 90%;
+	margin: auto;
+}
+.left {
+	width: 49%;
+	float: left;
+	margin-right: 5%;
+	background: #009BB2;
+}
+.right {
+	width: 41%;
+	float: left;
+	background: #FFFFFF;
+}
+.left1 {
+	width: 100%;
+	margin: auto;
+	padding: 1px;
+	background: #eee;
+}
+#left2{
+	opacity: 0.1;
+	width: 100%;
+	padding-left: 20px;
+	height: 200px;
+}
+#right1 {
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	margin: auto;
+	display: none;
+	padding: 1px;
+	background: greenyellow;
+	font-family: "arial narrowg";
+	font-size: 20px;
+}
+#clock {
+	color: #fff;
+	font: 16px/1.5 \5fae\8f6f\96c5\9ed1;
+}
+#right1 span {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+}
+.right2 {
+	margin: auto;
+	padding: 1px;
+	background: #eee;
+}
+h3 {
+	display: block;
+	font-size: 40px;
+	width: auto;
+	font-family: arial;
+	color: #fff;
+}
+#subscribe {
+	background: #006AB2;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
+#box {
+	position: absolute;
+	line-height: 80px;
+	width: 36%;
+	box-shadow: #fff 0 0 15px;
+	height: 200px;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+input{
+	font-family:  "微软雅黑";
+	font-size: 20px;
+}
+#box a{
+	margin-left: 30px;
+	text-decoration: none;
+
+	color: #fff;
+	text-shadow: #fff 0 0 5px;
+}
+#box h2{
+	display: block;
+	margin:0 0 15px 0; 
+	
+	color: aquamarine;
+	height: 50px;
+}
+#box p{
+	height: 20%;
+	margin: 0;
+	color: aliceblue;
+	padding-left: 30px;
+	
+}
+.btn1 {
+	display: block;
+	width: 94%;
+	height: 50px;
+	background: #eee;
+	margin: 3%;
+	box-shadow: #AAAAAA 0 0 6px;
+}
+.sth{
+	background: #eee;
+}
+#calendar {
+	width: 248px;
+	overflow: hidden;
+	zoom: 1;
+	background: #eaeaea;
+	margin: 10px auto;
+	padding: 0 0 10px 10px;
+}
+#calendar ul {
+	overflow: hidden;
+	zoom: 1;
+}
+#calendar li {
+	color: #fff;
+	float: left;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+	background: #424242;
+	line-height: 1.3;
+	list-style-type: none;
+	border: 1px solid #424242;
+	margin: 10px 10px 0 0;
+	padding: 5px;
+}
+#calendar li.current {
+	color: #F69;
+	background: #fff;
+}
+#calendar li strong {
+	display: block;
+	font-size: 18px;
+}
+#msg {
+	color: #666;
+	background: #f1f1f1;
+	border: 1px solid #fff;
+	margin: 10px 10px 0 0;
+	padding: 5px;
+}
+#msg h2 {
+	font-size: 14px;
+}
+#btm4{
+	display: none;
+	background: #fff;
+}
+#btm1 {
+	margin-top: 20px;
+}
+.btn2 {
+	display: inline-block;
+	float: left;
+	width: 94%;
+	height: 45px;
+	margin: 3%;
+	background: #FFFFFF;
+	box-shadow: #AAAAAA 0 0 6px;
+}
